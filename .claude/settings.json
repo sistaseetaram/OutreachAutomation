@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find ~/.claude/skills -name \"*excali*\" -o -name \"*Excali*\" 2>/dev/null; find /Users/sistaseetaram/Desktop/Claude/claude_projects/OutreachAutomation/.claude/skills -name \"*excali*\" -o -name \"*Excali*\" 2>/dev/null)",
+      "Read(//Users/sistaseetaram/.claude/skills/**)"
+    ]
+  }
+}
