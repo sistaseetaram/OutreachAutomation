@@ -6,6 +6,11 @@
 credentials.json
 token.json
 
+# Credentials folder — ignore everything except templates/docs
+credentials/*
+!credentials/.env.template
+!credentials/README.md
+
 # Temporary files
 .tmp/
 

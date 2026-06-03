@@ -6,3 +6,11 @@ python-dotenv>=1.0.0
 duckduckgo-search>=6.0.0
 firecrawl-py>=1.0.0
 rich>=13.0.0
+
+# Google Drive + Sheets (storage tiers)
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+
+# Phase 2 — cold email deliverability checks
+dnspython>=2.6.0

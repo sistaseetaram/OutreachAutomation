@@ -3,8 +3,8 @@
 Complete component list for the 5-track AI agency pipeline.
 Build phase-by-phase. Only implement what the current track requires.
 
-Last updated: 2026-06-01
-Source of truth: `.claude/plans/so-the-goal-here-glittery-token.md`
+Last updated: 2026-06-02 (Track 1 BUILT for Setu's real ICP — India interior-design beachhead, warm-first)
+Source of truth: `.claude/plans/ticklish-sauteeing-wilkinson.md`
 
 ---
 
@@ -152,24 +152,33 @@ COLD LEAD → [Track 1: Outreach] → WARM REPLY
 | `analytics_reporter.py` | planned |
 | `model_router.py` | planned |
 
-### Track 1: Outreach
-| Tool | Status |
-|---|---|
-| `apollo_search.py` | planned |
-| `buying_signal_detector.py` | planned |
-| `lead_enrichment.py` | planned |
-| `personalization_engine.py` | planned |
-| `email_sender.py` | planned |
-| `email_tracker.py` | planned |
-| `linkedin_playwright.py` | planned |
-| `linkedin_connector.py` | planned |
-| `reply_classifier.py` | planned |
-| `sequence_scheduler.py` | planned |
-| `offer_scorer.py` | planned |
-| `list_cleaner.py` | planned |
-| `domain_checker.py` | planned |
-| `compliance_checker.py` | planned |
-| `calendar_booking.py` | planned |
+### Track 1: Outreach — REBUILT for Setu's real ICP (India interior-design beachhead)
+> Pivot: the earlier Greenhouse/Apollo/Icypeas **cold-job-scraping** pipeline targeted the wrong
+> audience (US funded tech). Setu's ICP = India interior/architecture/construction SMBs. Phase 1 =
+> **warm LinkedIn/WhatsApp/IG** inside India; Phase 2 = cold (NRI + global English). Plan:
+> `.claude/plans/ticklish-sauteeing-wilkinson.md`.
+
+| Tool | Status | Note |
+|---|---|---|
+| `config_loader.py` | **built** | Loads `credentials/.env` + multi-account Google creds; masked status |
+| `setu_voice.py` | **built** | Setu voice spec + forbidden-words filter (used by all copy tools) |
+| `personalization_engine.py` | **built ✓tested** | Setu-voice, per-channel (LI note/DM, WhatsApp, IG, email), signal-waterfall, forbidden-word self-correct + length gates. Consumes `company_researcher.py` |
+| `lead_tracker.py` | **built ✓tested** | Local-first lead store + pipeline + cadence (`--next`, warm 4 / cold 1 caps). ClickUp-ready |
+| `lead_sourcer.py` | **built** | Multi-source: CSV (Sales Nav) + Firecrawl + Apollo + Apify IG (graceful until keys); dedup |
+| `lead_enrichment.py` | **built** | Firecrawl email-scrape now; Apollo/Clay when keys set |
+| `reply_classifier.py` | **built ✓tested** | Claude Haiku → interested/not_now/wrong/unsub/question → route |
+| `clickup_sync.py` | **built** | Lead tasks/status/tags/fields via ClickUp API (dry-run until token) |
+| `drive_sync.py` | **built** | Push artifacts to Drive tier A/B (dry-run until Google creds) |
+| `whatsapp_notifier.py` | **built ✓tested** | Self-notification digest of due actions (prints until WA configured) |
+| `whatsapp_sender.py` | **built** | Warm/engaged sends via WA Cloud API; **refuses cold free-text** |
+| `email_sender.py` / `compliance_checker.py` / `domain_checker.py` | Phase 2 | cold email (domain+warmup+SPF/DKIM/DMARC+RFC8058) |
+
+**Skill:** `loom-outreach` (**built**, `.claude/skills/loom-outreach/`) — Setu-voice ≤90s outreach Loom script.
+Reuse `company_researcher.py` (research) + ContentGenerator `loom-walkthrough-recorder` (deliverable demo).
+
+> **Dropped:** `apify_job_scraper.py`, `buying_signal_detector.py`, Icypeas enrichment, ATS/job-signal
+> sourcing — wrong audience for India design SMBs. Cadence folded into `lead_tracker.py` (no separate
+> `sequence_scheduler.py`). Apollo kept (its own DB, free tier) but as one of several sources, not the spine.
 
 ### Track 2: Audit
 | Tool | Status |
@@ -270,21 +279,36 @@ COLD LEAD → [Track 1: Outreach] → WARM REPLY
 
 Cost guard: $5/day. Review cycle: Day 7, then every 30 days.
 
+**Track 1 lead-gen cost (2026, ATS-only path):** Apify job scraping = pay-per-run (~cents/1k)
++ Icypeas enrichment $0.019/email. A 1k-lead run lands well under the $5/day guard. No Apollo
+subscription, no Vayne/Sales Nav fixed cost this round.
+
+> **Tactics decay fast — re-verify each review cycle.** This spec was rebuilt after Nick Saraev's
+> 7-month-old method was found half-dead (Apify Apollo scraper killed Sept 2025; volume-spray killed
+> by 2026 deliverability). Treat sourcing tools + deliverability rules as perishable; re-check at Day 7
+> and every 30 days.
+
 ---
 
 ## INFRASTRUCTURE
 
-| Component | Status |
-|---|---|
-| Outreach domain + SPF/DKIM/DMARC | needed |
-| Gmail API OAuth2 | needed |
-| Apollo.io API | needed |
-| Hunter.io API | needed |
-| Google Sheets API | needed |
-| Google Calendar API | needed |
-| Expandi (LinkedIn cloud) | needed |
-| Playwright (LinkedIn pre-engagement) | needed |
-| Firecrawl (web scraping) | available |
-| Excalidraw | available |
-| n8n | optional |
-| Anthropic API | available |
+**Storage & PM (3 tiers):** Tier A outreach → **ClickUp** status + **Google Drive** `Outreach/Leads/...`;
+Tier B engaged → Drive `Clients/<Name>/`; Tier C active delivery → **local** `~/Desktop/MyClients/`.
+All secrets in `credentials/` (`.env` + `credentials.json`, multi-account).
+
+| Component | Status | Note |
+|---|---|---|
+| Anthropic API | **available** | Copywriting (Sonnet) + classification (Haiku) |
+| OpenRouter API | **available** | Research (Kimi) + fallback |
+| Firecrawl | **available** | Studio-site scrape + email scrape + directory listings |
+| Google Drive + Sheets API (personal Gmail) | **needed** | Storage SoT; `credentials/credentials.json` (Drive+Sheets scope) |
+| ClickUp API (Free plan) | **needed** | CRM; native statuses+tags, ≤6 custom fields; cadence in our tool (not CU automations) |
+| WhatsApp Business Cloud API (spare SIM + setuagency.com) | **needed** | Warm/engaged sends + self-notify; never cold |
+| Apollo.io API (free 10k/mo) | needed | One of several lead sources (kept; not the spine) |
+| Apify API | needed | Instagram / Google Maps / Justdial actors |
+| Sales Navigator | **have** | Manual daily curation → CSV import |
+| Gemini Gem | **have** | Free "where AI helps" diagnosis (lead magnet) |
+| buildbridge (`Artchitectural_design_automation/`) | **have** | The free build deliverable (interior stages) |
+| n8n / Excalidraw | optional/available | orchestration (Phase 3) / diagrams |
+| **Phase 2 cold email:** secondary domain + SPF/DKIM/DMARC + RFC 8058 + 2–3wk inbox warmup + Instantly/Smartlead | Phase 2 | global English market |
+| Icypeas / Greenhouse / Hunter.io | **dropped** | Wrong audience (India design SMBs) / superseded |

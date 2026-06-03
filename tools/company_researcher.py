@@ -22,7 +22,8 @@ from dotenv import load_dotenv
 import anthropic
 from openai import OpenAI
 
-load_dotenv()
+_CRED_ENV = Path(__file__).resolve().parent.parent / "credentials" / ".env"
+load_dotenv(_CRED_ENV if _CRED_ENV.exists() else None)
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 FIRECRAWL_API_KEY = os.getenv("FIRECRAWL_API_KEY")
