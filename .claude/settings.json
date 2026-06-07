@@ -7,6 +7,31 @@
       "WebSearch",
       "WebFetch(domain:prospeo.io)",
       "WebFetch(domain:weezly.com)"
+    ],
+    "additionalDirectories": [
+      "/Users/sistaseetaram/Documents/Obsidian Vault"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"/Users/sistaseetaram/Documents/Obsidian Vault/MentorsWikki/.claude-hooks/load-context.sh\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"/Users/sistaseetaram/Documents/Obsidian Vault/MentorsWikki/.claude-hooks/writeback-reminder.sh\""
+          }
+        ]
+      }
     ]
   }
 }
