@@ -3,8 +3,9 @@
 clickup_sync.py — ClickUp CRM sync for outreach leads (ClickUp API v2).
 
 ClickUp = single source of truth for pipeline STATUS. One task per lead in the Leads list.
-This tool upserts a lead task (status, tags, custom fields). If CLICKUP_API_TOKEN is not set,
-it runs in DRY-RUN and prints the payload it would send.
+This tool upserts a lead task (status, tags, custom fields). If neither
+CLICKUP_API_TOKEN nor the legacy CLICKUP_API_KEY alias is set, it runs in
+DRY-RUN and prints the payload it would send.
 
 Usage:
     python tools/clickup_sync.py --studio "Nine Bricks Studio" --status "Contacted" \\
@@ -25,13 +26,25 @@ from dotenv import load_dotenv
 _CRED_ENV = Path(__file__).resolve().parent.parent / "credentials" / ".env"
 load_dotenv(_CRED_ENV if _CRED_ENV.exists() else None)
 
-TOKEN = os.getenv("CLICKUP_API_TOKEN")
+TOKEN = os.getenv("CLICKUP_API_TOKEN") or os.getenv("CLICKUP_API_KEY")
 TEAM_ID = os.getenv("CLICKUP_TEAM_ID")
 LEADS_LIST_ID = os.getenv("CLICKUP_LEADS_LIST_ID")
 BASE = "https://api.clickup.com/api/v2"
 
 # custom-field names we manage (resolved to IDs at runtime against the list)
 CUSTOM_FIELD_NAMES = ["LinkedIn URL", "Instagram", "Email", "Drive Folder", "Follow-up count", "Source"]
+
+
+def parse_tags(raw: str) -> list[str]:
+    """Parse comma-separated ClickUp tags, preserving order while deduping."""
+    seen = set()
+    tags = []
+    for tag in raw.split(","):
+        tag = tag.strip()
+        if tag and tag not in seen:
+            seen.add(tag)
+            tags.append(tag)
+    return tags
 
 
 def _headers() -> dict:
@@ -72,7 +85,15 @@ def _custom_fields_payload(list_id: str, values: dict) -> list:
     for name, val in values.items():
         if val in (None, "") or name not in fields:
             continue
-        out.append({"id": fields[name]["id"], "value": val})
+        field = fields[name]
+        # dropdown: map option name -> option id
+        if field.get("type") == "drop_down":
+            opts = field.get("type_config", {}).get("options", [])
+            opt = next((o for o in opts if o["name"].lower() == str(val).lower()), None)
+            if opt is None:
+                continue
+            val = opt["id"]
+        out.append({"id": field["id"], "value": val})
     return out
 
 
@@ -110,7 +131,7 @@ def main():
     ap = argparse.ArgumentParser(description="Upsert a lead task in ClickUp")
     ap.add_argument("--studio")
     ap.add_argument("--status")
-    ap.add_argument("--tags", default="", help="comma-separated")
+    ap.add_argument("--tags", default="", help="comma-separated extra tags, preserving existing task tags")
     ap.add_argument("--linkedin"); ap.add_argument("--instagram"); ap.add_argument("--email")
     ap.add_argument("--drive"); ap.add_argument("--source")
     ap.add_argument("--followups", type=int)
@@ -118,7 +139,7 @@ def main():
     ap.add_argument("--whoami", action="store_true")
     args = ap.parse_args()
 
-    tags = [t.strip() for t in args.tags.split(",") if t.strip()]
+    tags = parse_tags(args.tags)
     custom = {
         "LinkedIn URL": args.linkedin, "Instagram": args.instagram, "Email": args.email,
         "Drive Folder": args.drive, "Source": args.source,
@@ -126,7 +147,7 @@ def main():
     }
 
     if not available():
-        print("[DRY-RUN] CLICKUP_API_TOKEN not set — would perform:")
+        print("[DRY-RUN] CLICKUP_API_TOKEN / CLICKUP_API_KEY not set — would perform:")
         if args.whoami:
             print("  GET /team (list workspaces)")
         else:

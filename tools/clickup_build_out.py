@@ -27,7 +27,7 @@ from dotenv import load_dotenv
 _CRED_ENV = Path(__file__).resolve().parent.parent / "credentials" / ".env"
 load_dotenv(_CRED_ENV if _CRED_ENV.exists() else None)
 
-TOKEN = os.getenv("CLICKUP_API_TOKEN")
+TOKEN = os.getenv("CLICKUP_API_TOKEN") or os.getenv("CLICKUP_API_KEY")
 TEAM_ID = os.getenv("CLICKUP_TEAM_ID")
 BASE = "https://api.clickup.com/api/v2"
 
@@ -134,8 +134,10 @@ def seed():
             print(f"  • {r['studio']} @ {r.get('status')} [{r.get('track')}/{r.get('segment')}]")
         return
     for s, r in leads.items():
-        tags = [r.get("track"), r.get("segment")] + ([r["city"].lower()] if r.get("city") else [])
-        res = cu.upsert_lead(list_id, r["studio"], r.get("status"), [t for t in tags if t],
+        # Free plan: no custom statuses. Encode pipeline stage as a tag (stage:xxx).
+        stage_tag = "stage:" + r["status"].lower().replace(" ", "-") if r.get("status") else None
+        tags = [r.get("track"), r.get("segment")] + ([r["city"].lower()] if r.get("city") else []) + ([stage_tag] if stage_tag else [])
+        res = cu.upsert_lead(list_id, r["studio"], None, [t for t in tags if t],
                              {"LinkedIn URL": r.get("linkedin"), "Instagram": r.get("instagram"),
                               "Email": r.get("email"), "Drive Folder": r.get("drive_folder"),
                               "Source": r.get("source"), "Follow-up count": r.get("followups")})
@@ -149,7 +151,7 @@ def main():
     args = ap.parse_args()
 
     if not TOKEN:
-        print("[DRY-RUN] CLICKUP_API_TOKEN not set — would create this structure:\n")
+        print("[DRY-RUN] CLICKUP_API_TOKEN / CLICKUP_API_KEY not set — would create this structure:\n")
         print(structure_text())
         print("\nAdd CLICKUP_API_TOKEN (+ CLICKUP_TEAM_ID optional) to credentials/.env, then --create.")
         if args.seed:

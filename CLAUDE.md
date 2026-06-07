@@ -33,6 +33,10 @@ credentials.json, token.json  # Google OAuth (gitignored)
 3. Don't create or overwrite workflows without asking unless explicitly told to
 4. Deliverables go to cloud (Google Sheets, etc.) — `.tmp/` is disposable
 
+## Branch ownership
+
+Codex is implementing ClickUp outreach tracking on branch `codex`. Claude must not switch to, edit, or merge that branch unless the user explicitly instructs Claude to do so.
+
 ## Wiki context
 
 This project loads the MentorsWikki wiki at `/Users/sistaseetaram/Documents/Obsidian Vault/MentorsWikki`.
