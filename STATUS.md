@@ -37,10 +37,9 @@
 ## NEXT STEPS (on resume, in order)
 1. ~~**Drive:** done 2026-06-07. Desktop OAuth (YouTube creds reused). `token.json` saved. `GOOGLE_DRIVE_CLIENTS_FOLDER_ID=19o6XUb7KKTUeg2Lv_ggTitq0_TxTPpui` set. Nine Bricks first-touch uploaded to `Outreach/Leads/interior/Nine Bricks Studio/messages`.~~
 2. ~~**ClickUp:** done 2026-06-07. Space `Setu — Outreach & Clients` (ID `90167179838`) built. Lists: Leads (`901615297544`), Engaged Clients (`901615297545`). 6 custom fields + stage tags. Nine Bricks Studio seeded. IDs in `.claude/mcp-registry.md`.~~
-3. **Apollo:** test a pull (MCP or `lead_sourcer.py --apollo`) for interior designers, India.
-4. **WhatsApp:** finish Meta business verification (spare SIM +919381814214 + setuagency.com) → fill
-   `WHATSAPP_TOKEN/PHONE_ID/BUSINESS_ACCOUNT_ID` → `whatsapp_notifier.py` test.
-5. Then daily loop per `SETUP.md`. Start warm outreach to the ~5 leads.
+3. ~~**Apollo:** skipped — free plan blocks People Search API. Defer to Phase 2 cold outreach.~~
+4. ~~**WhatsApp:** done 2026-06-08. Tokens set (`WHATSAPP_TOKEN`, `WHATSAPP_PHONE_ID`, `WHATSAPP_BUSINESS_ACCOUNT_ID`). API verified (200 + valid wa_id). Test delivery to spare SIM unreliable (Meta test number limitation) — will resolve when real business number registered.~~
+5. **NEXT SESSION: Start warm outreach.** Nine Bricks Studio already active (skip). Add other warm leads to tracker → draft first-touch messages → send.
 
 ## Pending (later)
 - Phase 2: cold email (domain + 2–3wk warmup + email_sender/compliance/domain_checker) for NRI + global English.
