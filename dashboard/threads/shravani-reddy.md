@@ -3,14 +3,14 @@ name: Shravani Reddy
 firm: Spacetime Creative
 slug: shravani-reddy
 linkedin: https://www.linkedin.com/in/shravani-reddy-6175a6138/
-status: new
+status: connect-sent
 variant: soft-touch
 icp_fit: strong
 role: owner/principal
 geo: hyderabad
-last_touch:
-next_action: Step 1 — comment on her recent post, then send connect request
-next_action_due: 2026-06-13
+last_touch: 2026-06-13
+next_action: Await accept; send Step 3 DM once connected. Bump in ~5 days.
+next_action_due: 2026-06-18
 ---
 
 ## Snapshot
@@ -41,6 +41,6 @@ next_action_due: 2026-06-13
 ## Thread log
 | date | dir | channel | message / note |
 |------|-----|---------|----------------|
-|      |     |         |                |
+| 2026-06-13 | OUT | linkedin | connection request sent |
 
 ## Next reply (filled by Claude when Setu pastes their reply)

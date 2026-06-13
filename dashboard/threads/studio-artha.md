@@ -40,3 +40,9 @@ clickup: https://app.clickup.com/t/86d38taf1
 | 2026-06-07→13 | — | note | Stalled. Our timing follow-up never sent. He went silent. Reviving 2026-06-13. |
 
 ## Next reply (filled by Claude when Setu pastes their reply)
+
+**Context:** He said interested + agreed to a call (~Jun 7), then went quiet on timing; our follow-up never went out. This is the revive — send it now (today is Saturday, so Mon/Tue slots). Send-ready:
+
+> Hi Lohith — circling back on the quick call we'd talked about; that one's on me for not pinning a time. Totally get that site weeks get hectic. To make it easy — would Monday or Tuesday around 4pm work for a 15 min? Happy to flex to whatever suits you. And if now isn't the moment, just say so and I'll check back later — no pressure either way.
+
+After sending → log it (`OUT` row), set `next_action` to "await reply, bump in ~5 days".

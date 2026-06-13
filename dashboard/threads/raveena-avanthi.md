@@ -5,14 +5,14 @@ slug: raveena-avanthi
 linkedin: https://www.linkedin.com/in/raveena-avanthi-367823213/
 instagram: "@CONFIRM-HANDLE"
 channel: instagram
-status: new
+status: connect-sent
 variant: soft-touch
 icp_fit: medium
 role: owner/principal
 geo: hyderabad
-last_touch:
-next_action: Instagram — comment on recent post, then DM (LinkedIn inactive)
-next_action_due: 2026-06-13
+last_touch: 2026-06-13
+next_action: Await response; Step 3 DM after. Bump in ~5 days.
+next_action_due: 2026-06-18
 clickup: https://app.clickup.com/t/86d3b82gu
 ---
 
@@ -45,5 +45,6 @@ clickup: https://app.clickup.com/t/86d3b82gu
 | date | dir | channel | message / note |
 |------|-----|---------|----------------|
 | 2026-06-13 | — | note | LinkedIn inactive (Setu's check). Pivoted to Instagram. Founder status confirmed via LI headline. |
+| 2026-06-13 | OUT | instagram | IG comment + connect/DM sent |
 
 ## Next reply (filled by Claude when Setu pastes their reply)

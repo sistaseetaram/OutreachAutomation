@@ -5,14 +5,14 @@ slug: monica-reddy
 linkedin: https://www.linkedin.com/in/monica-reddy-b70b64117/
 instagram: "@studiopurpleelephant"
 channel: instagram
-status: new
+status: connect-sent
 variant: soft-touch
 icp_fit: medium
 role: owner/principal
 geo: hyderabad
-last_touch:
-next_action: Instagram — comment on a recent post, then DM (she's IG-active)
-next_action_due: 2026-06-13
+last_touch: 2026-06-13
+next_action: Await accept; send Step 3 DM once connected. Bump in ~5 days.
+next_action_due: 2026-06-18
 clickup: https://app.clickup.com/t/86d3b82h9
 ---
 
@@ -50,5 +50,6 @@ Studio Purple Elephant's own work on Instagram — architecture + interiors thou
 | date | dir | channel | message / note |
 |------|-----|---------|----------------|
 | 2026-06-13 | — | note | Firm corrected: Studio Purple Elephant (not Kreative House). Re-researched, pivoted to Instagram. |
+| 2026-06-13 | OUT | linkedin | connection request sent |
 
 ## Next reply (filled by Claude when Setu pastes their reply)

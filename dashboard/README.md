@@ -13,22 +13,22 @@ The board below is **auto-generated** from those files — never edit it by hand
 ## The Board
 
 <!-- BOARD:START -->
-**12 leads** — 🌶️ 1 interested  ·  💬 1 replied  ·  🤝 1 connected  ·  📨 3 connect-sent  ·  🆕 6 new
+**12 leads** — 🌶️ 1 interested  ·  💬 1 replied  ·  🤝 1 connected  ·  📨 9 connect-sent
 
 | | Status | Lead | Firm | ICP | Geo | Next action | Due |
 |---|---|---|---|---|---|---|---|
 | 🌶️ | interested | [The Studio Artha](threads/studio-artha.md) | The Studio Artha | 🟢 | andhra-pradesh | REVIVE — follow up to lock a call time (he agreed in principle, then went silent; our follow-up never went out) | 2026-06-13 |
 | 💬 | replied | [Avinash Doddathippanna](threads/avinash-doddathippanna.md) | — | 🟡 | uk | Chase the promised referral (interiors/manufacturing) — follow-up overdue | 2026-06-13 |
 | 🤝 | connected | [Nine Bricks Studio](threads/nine-bricks-studio.md) | Nine Bricks Studio | 🟢 | bengaluru | Follow-up #1 — this is the active pilot / proof firm | 2026-06-13 |
+| 📨 | connect-sent | [Prashanthi Narapasetty](threads/prashanthi-narapasetty.md) | Design Dialogue | 🟢 | hyderabad | Await accept; send Step 3 DM once connected. Bump in ~5 days. | 2026-06-18 |
+| 📨 | connect-sent | [Shravani Reddy](threads/shravani-reddy.md) | Spacetime Creative | 🟢 | hyderabad | Await accept; send Step 3 DM once connected. Bump in ~5 days. | 2026-06-18 |
 | 📨 | connect-sent | [Claudia Duffield](threads/claudia-duffield.md) | — | 🟡 | canada | Awaiting reply — bump after 5–7 days; she's an advisor, not a buyer | 2026-06-14 |
 | 📨 | connect-sent | [Earl Lawson](threads/earl-lawson.md) | V6B Design Group | 🟡 | vancouver | Awaiting reply — bump after 5–7 days with a soft value-add | 2026-06-14 |
 | 📨 | connect-sent | [Eric Marshall](threads/eric-marshall.md) | — | 🟡 | arizona | Awaiting reply — bump after 5–7 days with a soft value-add | 2026-06-14 |
-| 🆕 | new | [Prashanthi Narapasetty](threads/prashanthi-narapasetty.md) | Design Dialogue | 🟢 | hyderabad | Step 1 — comment on her recent post, then send connect request | 2026-06-13 |
-| 🆕 | new | [Shravani Reddy](threads/shravani-reddy.md) | Spacetime Creative | 🟢 | hyderabad | Step 1 — comment on her recent post, then send connect request | 2026-06-13 |
-| 🆕 | new | [Monica Reddy](threads/monica-reddy.md) | Studio Purple Elephant | 🟡 | hyderabad | Instagram — comment on a recent post, then DM (she's IG-active) | 2026-06-13 |
-| 🆕 | new | [Raveena Avanthi](threads/raveena-avanthi.md) | KalaaZodh Architecture | 🟡 | hyderabad | Instagram — comment on recent post, then DM (LinkedIn inactive) | 2026-06-13 |
-| 🆕 | new | [Sravani Andhavarapu](threads/sravani-andhavarapu.md) | Hypercube Studio | 🟡 | hyderabad | Step 1 — comment on her recent post, then send connect request | 2026-06-13 |
-| 🆕 | new | [Jyothi Kuchibhotla](threads/jyothi-kuchibhotla.md) | Skydes Studio | 🔴 | hyderabad | VERIFY ownership before investing — then Step 1/2 if she's a principal | 2026-06-13 |
+| 📨 | connect-sent | [Monica Reddy](threads/monica-reddy.md) | Studio Purple Elephant | 🟡 | hyderabad | Await accept; send Step 3 DM once connected. Bump in ~5 days. | 2026-06-18 |
+| 📨 | connect-sent | [Raveena Avanthi](threads/raveena-avanthi.md) | KalaaZodh Architecture | 🟡 | hyderabad | Await response; Step 3 DM after. Bump in ~5 days. | 2026-06-18 |
+| 📨 | connect-sent | [Sravani Andhavarapu](threads/sravani-andhavarapu.md) | Hypercube Studio | 🟡 | hyderabad | Await accept; send Step 3 DM once connected. Bump in ~5 days. | 2026-06-18 |
+| 📨 | connect-sent | [Jyothi Kuchibhotla](threads/jyothi-kuchibhotla.md) | Skydes Studio | 🔴 | hyderabad | Await accept; send Step 3 DM once connected. Bump in ~5 days. | 2026-06-18 |
 <!-- BOARD:END -->
 
 Legend — Status: ✅ converted · 🔥 call-booked · 🌶️ interested · 💬 replied · 🤝 connected · 📨 connect-sent · 👀 engaging · 🆕 new · ⏳ not-now · ⚰️ dead.  ICP: 🟢 strong · 🟡 medium · 🔴 weak.

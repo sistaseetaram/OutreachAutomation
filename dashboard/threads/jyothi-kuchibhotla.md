@@ -3,14 +3,14 @@ name: Jyothi Kuchibhotla
 firm: Skydes Studio
 slug: jyothi-kuchibhotla
 linkedin: https://www.linkedin.com/in/ar-jyothi-kuchibhotla-79506649/
-status: new
+status: connect-sent
 variant: soft-touch
 icp_fit: weak
 role: employee
 geo: hyderabad
-last_touch:
-next_action: VERIFY ownership before investing — then Step 1/2 if she's a principal
-next_action_due: 2026-06-13
+last_touch: 2026-06-13
+next_action: Await accept; send Step 3 DM once connected. Bump in ~5 days.
+next_action_due: 2026-06-18
 ---
 
 ## Snapshot
@@ -40,6 +40,6 @@ No single standout published project tied to her. Hook on the *range* of her res
 ## Thread log
 | date | dir | channel | message / note |
 |------|-----|---------|----------------|
-|      |     |         |                |
+| 2026-06-13 | OUT | linkedin | connection request sent |
 
 ## Next reply (filled by Claude when Setu pastes their reply)
