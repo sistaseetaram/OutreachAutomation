@@ -28,7 +28,7 @@ clickup: https://app.clickup.com/t/86d38taf1
 
 ## Messages (ready to send)
 ### Revive — follow up to lock the call (low-pressure, concrete slots)
-> Hi Lohith — circling back on the quick call we'd talked about; that one's on me for not pinning a time. Totally get that site weeks get hectic. To make it easy — would Thursday or Friday around 4pm work for a 15 min? Happy to flex to whatever suits you. And if now isn't the moment, just say so and I'll check back later — no pressure either way.
+> Hi Lohith — circling back on the quick call we'd talked about; that one's on me for not pinning a time. Totally get that site weeks get hectic. To make it easy — would Monday or Tuesday around 4pm work for a 15 min? Happy to flex to whatever suits you. And if now isn't the moment, just say so and I'll check back later — no pressure either way.
 
 ### If still no reply after ~5 days — one soft value bump, then park
 > No worries at all, Lohith — I'll get out of your inbox. One thing that might be useful regardless: [share a small, concrete win from the Nine Bricks control room]. If it's ever relevant, I'm a message away.
