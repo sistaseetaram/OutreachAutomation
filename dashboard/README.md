@@ -13,11 +13,11 @@ The board below is **auto-generated** from those files — never edit it by hand
 ## The Board
 
 <!-- BOARD:START -->
-**12 leads** — 🔥 1 call-booked  ·  💬 1 replied  ·  🤝 1 connected  ·  📨 3 connect-sent  ·  🆕 6 new
+**12 leads** — 🌶️ 1 interested  ·  💬 1 replied  ·  🤝 1 connected  ·  📨 3 connect-sent  ·  🆕 6 new
 
 | | Status | Lead | Firm | ICP | Geo | Next action | Due |
 |---|---|---|---|---|---|---|---|
-| 🔥 | call-booked | [The Studio Artha](threads/studio-artha.md) | The Studio Artha | 🟢 | andhra-pradesh | Confirm & run the diagnosis call — warmest lead in the pipeline | 2026-06-13 |
+| 🌶️ | interested | [The Studio Artha](threads/studio-artha.md) | The Studio Artha | 🟢 | andhra-pradesh | REVIVE — follow up to lock a call time (he agreed in principle, then went silent; our follow-up never went out) | 2026-06-13 |
 | 💬 | replied | [Avinash Doddathippanna](threads/avinash-doddathippanna.md) | — | 🟡 | uk | Chase the promised referral (interiors/manufacturing) — follow-up overdue | 2026-06-13 |
 | 🤝 | connected | [Nine Bricks Studio](threads/nine-bricks-studio.md) | Nine Bricks Studio | 🟢 | bengaluru | Follow-up #1 — this is the active pilot / proof firm | 2026-06-13 |
 | 📨 | connect-sent | [Claudia Duffield](threads/claudia-duffield.md) | — | 🟡 | canada | Awaiting reply — bump after 5–7 days; she's an advisor, not a buyer | 2026-06-14 |
