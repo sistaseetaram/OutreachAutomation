@@ -37,10 +37,13 @@ Studio Purple Elephant's own work on Instagram — architecture + interiors thou
 ### Step 1 — comment on a recent IG project post (warm-up)
 > Studio Purple Elephant's spaces have a real character to them — you can tell the architecture and interiors are designed together, not bolted on. [Reference the specific post you're commenting on.] Lovely work.
 
-### Step 2 — Instagram DM (no pitch)
+### Step 2 — connection request / short opener (≤300 chars — 273)
+> Hi Monica — really like what Studio Purple Elephant is putting out. I'm studying how Hyderabad studio founders keep projects coordinated once work hits site — vendors, approvals, revisions, follow-ups. Not selling anything. Would love to connect and hear how you handle it.
+
+### Step 3 — DM after she accepts (fuller version, no char limit)
 > Hi Monica — been enjoying Studio Purple Elephant's work on here; building your own architecture + interior studio is no small thing. I'm mapping how studio founders in Hyderabad keep projects coordinated once they hit site — vendors, revisions, approvals, follow-ups. Not selling anything, genuinely learning how studios like yours handle it. Would you be open to sharing your take sometime?
 
-### Step 3 — follow-up DM after she replies (soft 15-min ask)
+### Step 4 — follow-up after she replies (soft 15-min ask)
 > Appreciate it, Monica. Would a quick 15 min work sometime this week? I'd love to understand how you run project coordination day to day at Purple Elephant — and if anything I'm building turns out useful to you, even better. No pressure either way.
 
 ## Thread log
