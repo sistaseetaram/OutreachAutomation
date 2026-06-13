@@ -39,16 +39,16 @@ Legend — Status: ✅ converted · 🔥 call-booked · 🌶️ interested · �
 
 For every 🆕 new lead, in order:
 
-1. **Step 1 — engage their post.** Open the lead's thread, copy the *Step 1* comment, post it on their most recent relevant LinkedIn post. (Verify it's actually their latest post first — research was done off-LinkedIn.) This warms the connection.
+1. **Step 1 — engage their post.** Open the lead's thread, copy the *Step 1* comment, post it on their most recent relevant LinkedIn/Instagram post (some leads are IG — check the card's `channel`). Verify it's actually their latest post first — research was done off-platform. This warms the connection.
 2. **Step 2 — send the connection request.** Copy the *Step 2* message (≤300 chars, no pitch) and send the connect.
 3. Log it: in the thread file, set `status: connect-sent`, set `last_touch:` to today, add a row to the Thread log. Run `python dashboard/build_board.py`.
 
 > ⚠️ LinkedIn safety: **max 20–25 connection requests/day.** Randomize timing. 6 today is well within limits.
 > **Step 3** (follow-up DM) fires only *after* they accept. **No pitch until they reply** — see the playbook.
 
-**Priority order today:** 🟢 Shravani Reddy & Prashanthi Narapasetty first (bullseye owners), then 🟡 Raveena Avanthi & Sravani Andhavarapu. Jyothi & Monica are 🔴 weak (not owners) — see their cards before spending a touch.
+**Priority order today:** 🟢 Shravani Reddy & Prashanthi Narapasetty first (bullseye owners, LinkedIn). Then 🟡 Sravani Andhavarapu (LinkedIn), and the Instagram leads 🟡 Raveena Avanthi & Monica Reddy (both IG-active — comment + DM, *not* a LinkedIn connect). Jyothi is 🔴 weak (likely not an owner) — verify before spending a touch.
 
-**Don't forget the warm pipeline:** 🔥 **Studio Artha** has a diagnosis call booked — that's the highest-value action in the whole board. **Nine Bricks** (the pilot) needs follow-up #1. **Avinash** owes a referral (overdue).
+**Don't forget the warm pipeline:** 🌶️ **Studio Artha** is interested but stalled — send Lohith the revive (Mon/Tue 4pm) to lock a call; highest-value action on the board. **Nine Bricks** (the pilot) needs follow-up #1. **Avinash** owes a referral (overdue).
 
 ---
 
