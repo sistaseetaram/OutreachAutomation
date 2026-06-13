@@ -25,10 +25,10 @@ The board below is **auto-generated** from those files — never edit it by hand
 | 📨 | connect-sent | [Eric Marshall](threads/eric-marshall.md) | — | 🟡 | arizona | Awaiting reply — bump after 5–7 days with a soft value-add | 2026-06-14 |
 | 🆕 | new | [Prashanthi Narapasetty](threads/prashanthi-narapasetty.md) | Design Dialogue | 🟢 | hyderabad | Step 1 — comment on her recent post, then send connect request | 2026-06-13 |
 | 🆕 | new | [Shravani Reddy](threads/shravani-reddy.md) | Spacetime Creative | 🟢 | hyderabad | Step 1 — comment on her recent post, then send connect request | 2026-06-13 |
+| 🆕 | new | [Monica Reddy](threads/monica-reddy.md) | Studio Purple Elephant | 🟡 | hyderabad | Instagram — comment on a recent post, then DM (she's IG-active) | 2026-06-13 |
 | 🆕 | new | [Raveena Avanthi](threads/raveena-avanthi.md) | KalaaZodh Architecture | 🟡 | hyderabad | Instagram — comment on recent post, then DM (LinkedIn inactive) | 2026-06-13 |
 | 🆕 | new | [Sravani Andhavarapu](threads/sravani-andhavarapu.md) | Hypercube Studio | 🟡 | hyderabad | Step 1 — comment on her recent post, then send connect request | 2026-06-13 |
 | 🆕 | new | [Jyothi Kuchibhotla](threads/jyothi-kuchibhotla.md) | Skydes Studio | 🔴 | hyderabad | VERIFY ownership before investing — then Step 1/2 if she's a principal | 2026-06-13 |
-| 🆕 | new | [Monica Reddy](threads/monica-reddy.md) | Kreative House | 🔴 | hyderabad | Use as warm intro path to founders — not a direct buyer | 2026-06-13 |
 <!-- BOARD:END -->
 
 Legend — Status: ✅ converted · 🔥 call-booked · 🌶️ interested · 💬 replied · 🤝 connected · 📨 connect-sent · 👀 engaging · 🆕 new · ⏳ not-now · ⚰️ dead.  ICP: 🟢 strong · 🟡 medium · 🔴 weak.
