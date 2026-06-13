@@ -52,6 +52,30 @@ For every 🆕 new lead, in order:
 
 ---
 
+## 🔁 Outreach Watch Mode (session-scoped, you turn it on)
+
+Not a 24/7 daemon — a watch you switch on when you sit down to do outreach, off when done.
+Detection is a tokenless script; drafting is Claude, looping during your session.
+
+**Start it:** tell Claude **"starting outreach"**. Claude then loops until you say **"stop outreach"**:
+1. runs `python dashboard/scan_replies.py` to find threads with a reply logged but no draft,
+2. drafts the next message (per [SALES-PLAYBOOK.md](SALES-PLAYBOOK.md)) into each thread's **Next reply** section,
+3. rebuilds the board + `board.html`, and tells you what's ready.
+
+**Log a reply (two ways — pick either):**
+- **CLI:** `python dashboard/log_reply.py shravani-reddy --text "Sure, tell me more"`
+- **Just paste it to Claude:** "Shravani replied: …" — Claude logs it and drafts.
+
+**The detector** (`scan_replies.py`) flags a thread when its Thread log has an `| … | IN | … |` row
+but the **Next reply** section is still empty. Run `python dashboard/scan_replies.py` anytime to see
+the draft queue (`--json` for the loop).
+
+> Why not an always-on agent? At your stage there's no event stream to justify a daemon, and a
+> subagent can't persist/listen anyway (they're one-shot). Drafting needs an LLM — so the model is:
+> **detection automated, drafting by Claude inside a watch loop you control.**
+
+---
+
 ## How to use this dashboard
 
 ### When a lead replies
