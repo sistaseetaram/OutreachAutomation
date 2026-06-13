@@ -26,6 +26,35 @@ list, and payment-leakage alerts. Built around their existing WhatsApp/Sheets fl
 **NEVER lead with:** AI design automation, "AI-powered architecture", replacing junior designers,
 CRM for architects, productivity dashboard, digital transformation, generic AI audit.
 
+## The free rep: 7-Day Project Control Room (single project)
+
+The on-doctrine "free value" play — give before you ask, build the exact muscle you sell, produce a
+case study that compounds toward the paid offer. **Built, not advised.** Offer this only after real pain
+surfaces on a call (see the Call Guide).
+
+**The offer (say it like this):**
+> Pick one live project. Over the next 7 days I'll set up a simple daily control view for it — site
+> updates, pending approvals, what's blocked, who you're waiting on, payment milestones — built around
+> your existing WhatsApp and sheets, nothing new for your team to learn. Free. You keep it either way.
+
+**Scope IN (deliver exactly this):** ONE live project · daily owner summary · blocker tracker ·
+pending-approval list · site/vendor follow-up list · payment-milestone view. Built on their existing
+WhatsApp/Sheets flow.
+
+**Scope OUT (protect against the tarpit — say no to):** team-wide rollout · any new app for their team ·
+any design/creative work · multiple projects · open-ended revisions. One project, one view, 7 days.
+
+**The fence (what you ask for in return):** a short testimonial · permission to use it as a case study ·
+one referral to another studio owner.
+
+**Rules:** Show something *running* (Loom walkthrough). Quote **conservative, measured** time saved on
+*their* real project. **Cap at 7 free builds total** — after that, it's paid. Once they book a paid call
+or active delivery starts, it's no longer free.
+
+**Why not free websites / other free work:** off-doctrine. A free website builds web-dev reps and
+re-anchors you as the cheap website guy. Free reps only compound if they're reps at the offer you
+actually sell. Keep every free build pointed at the Control Room.
+
 ## The touch sequence (per lead)
 
 | Step | Action | Goal |
