@@ -1,37 +1,4 @@
-# Agent Instructions
-
-You're working inside the **WAT framework** (Workflows, Agents, Tools). This architecture separates concerns so that probabilistic AI handles reasoning while deterministic code handles execution.
-
-## The WAT Architecture
-
-**Layer 1: Workflows (The Instructions)**
-- Markdown SOPs stored in `workflows/`
-- Each workflow defines objective, required inputs, tools to use, expected outputs, edge cases
-
-**Layer 2: Agents (The Decision-Maker)**
-- Read relevant workflow, run tools in correct sequence, handle failures, ask clarifying questions when needed
-- Before writing new code, check `tools/` for existing scripts that cover the task
-
-**Layer 3: Tools (The Execution)**
-- Python scripts in `tools/` — API calls, data transforms, file ops
-- Credentials in `.env` only. Never store secrets elsewhere.
-
-## File Structure
-
-```
-.tmp/           # Temporary files. Regenerated as needed. Gitignored.
-tools/          # Python scripts for deterministic execution
-workflows/      # Markdown SOPs
-.env            # API keys and env vars (gitignored)
-credentials.json, token.json  # Google OAuth (gitignored)
-```
-
-## Operating Rules
-
-1. Check `tools/` before building anything new
-2. When something fails: read error → fix script → retest → update workflow
-3. Don't create or overwrite workflows without asking unless explicitly told to
-4. Deliverables go to cloud (Google Sheets, etc.) — `.tmp/` is disposable
+@/Users/sistaseetaram/Desktop/Claude/Youtubers/Nate/CLAUDE.md
 
 ## Branch ownership
 
@@ -45,13 +12,29 @@ At session start: read `/Users/sistaseetaram/Documents/Obsidian Vault/MentorsWik
 
 At session end: run the write-back check: "Did anything this session contradict or extend the wiki?" Append to `wiki/log.md` if yes.
 
-Current outreach doctrine from MentorsWikki:
+Current outreach doctrine from MentorsWikki (cached snapshot — verify against wiki syntheses if doctrine seems stale):
 - 100 daily primary outreach actions is the volume floor.
 - At Setu's pre-revenue stage, proof-led warm outreach beats paid acquisition.
 - Use one deeply scoped offer before building a services menu.
 - For first clients, prioritize warm contacts in architecture/interior/construction and sell one concrete workflow outcome.
 
+## Industry Targeting — LOCKED (2026-06-15)
+
+Active target: **Architecture firms + Interior Design Studios**. Full pain brief,
+hooks, ROI, and product ranking live in `artifacts/outreach/target-brief.md`
+(visual: `arch-interior-pain-infographic.html`). Read the brief before drafting outreach.
+
+**Top 3 pains → product:** (1) Slow lead response → Live Lead Engagement · (2) Follow-up
+black hole → Lead Reactivation SMS · (3) Senior time drain → Website Widget.
+
+**Outreach rule:** Every message on every platform opens with ONE of these 3 pains and
+names ONE specific product fix. Never a generic "AI automation" opener. Anchor ROI in ₹, not just %.
+
 ## Applied Learning
+
+- **Dashboard writing style — never caveman.** Everything written into `dashboard/` (threads,
+  lead cards, status) uses clean, full, normal English with structured + flexible UI. No
+  caveman/terse fragments in dashboard content, regardless of session caveman mode.
 
 <!-- Add one-line bullets here as we discover platform quirks, rate limits, workarounds -->
 
