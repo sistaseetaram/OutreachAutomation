@@ -97,3 +97,7 @@ python shared_context.py brand-voice   # print voice snapshot
 python shared_context.py leads         # print all leads
 python shared_context.py posts         # print all published posts
 ```
+
+> **Warning (2026-07-07):** `refresh-voice` in the shared store is a stub — it stamps
+> a new snapshot date without re-reading the wiki. Treat the brand-voice snapshot as
+> manually maintained; verify content, not the date.
