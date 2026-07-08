@@ -50,3 +50,29 @@ Current outreach doctrine from MentorsWikki:
 ## Applied Learning
 
 <!-- Add one-line bullets here as we discover platform quirks, rate limits, workarounds -->
+
+
+---
+
+## ⚠ VAULT MIGRATION — one-time, self-removing (added 2026-07-08)
+
+This project's secrets now live in the **AIOS vault** (`~/.config/aios-vault/master.env`),
+under the project key **`OutreachAutomation`**. Do this ONCE, before other work, then remove this block:
+
+1. **WIRE** (make the entry point load from the vault instead of the local `.env`):
+   **Already wired** — the entry point loads from the vault. Just VERIFY + CLEAN below.
+
+2. **VERIFY** the keys resolve, and the project actually runs pulling from the vault:
+   ```bash
+   python3 ~/Desktop/Claude/SharedInfra/vault/vault_loader.py --audit OutreachAutomation
+   ```
+
+3. **IF it works** (all required keys `<set>`, project runs):
+   a. Overwrite `credentials/.env` with ONLY this line — strip every secret value:
+      `# Secrets moved to ~/.config/aios-vault/master.env — load via SharedInfra vault_loader`
+   b. **Delete this entire "VAULT MIGRATION — one-time, self-removing" block from this file.** Migration done.
+
+4. **IF it fails** (missing keys / load error): leave `credentials/.env` untouched, report which
+   keys are missing (add them to the vault via `master.env`), and keep this block for next time.
+
+**Never print secret values** during any of this. Confirm with masked `--audit` only.
