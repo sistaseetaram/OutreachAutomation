@@ -15,20 +15,27 @@ CLI:
 """
 
 import os
+import sys
 from pathlib import Path
-
-from dotenv import load_dotenv
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CREDENTIALS_DIR = PROJECT_ROOT / "credentials"
 ENV_PATH = CREDENTIALS_DIR / ".env"
 ROOT_ENV = PROJECT_ROOT / ".env"  # legacy fallback
 
-# Load credentials/.env (primary); fall back to legacy root .env if present.
-if ENV_PATH.exists():
-    load_dotenv(ENV_PATH)
-elif ROOT_ENV.exists():
-    load_dotenv(ROOT_ENV)
+# Load from central vault first; fall back to local .env during transition.
+_SHARED_INFRA = Path.home() / "Desktop/Claude/SharedInfra"
+try:
+    if str(_SHARED_INFRA) not in sys.path:
+        sys.path.insert(0, str(_SHARED_INFRA))
+    from vault.vault_loader import load_for_project
+    load_for_project("OutreachAutomation", strict=False)
+except Exception:
+    from dotenv import load_dotenv
+    if ENV_PATH.exists():
+        load_dotenv(ENV_PATH)
+    elif ROOT_ENV.exists():
+        load_dotenv(ROOT_ENV)
 
 # Google OAuth scopes — Drive + Sheets (personal account = storage + notifications).
 SCOPES = [
