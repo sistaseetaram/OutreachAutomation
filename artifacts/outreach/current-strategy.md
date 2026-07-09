@@ -133,12 +133,22 @@ Best-fit leads:
 - likely using WhatsApp, calls, Sheets, PDFs, and scattered documents
 - founder still involved in project follow-up
 
+**Secondary segment (validated via Raju, 2026-06-08):**
+Senior/established architects who are NOT owners but have high influence and daily design output.
+- 15+ years experience, multiple project types (villas, offices, function halls, malls)
+- Do pre-commitment design work (1–2 renders/drawings before client pays advance) — this is unpaid time and a real pain
+- AI-aware: already know tools like 3ds Max AI plugins; not scared, just waiting for someone to build for them
+- Want personalized output trained on their own past work — not generic AI style
+- Hard requirement: measurement-accurate renders from actual 2D plans
+- Path to budget: need intro to firm owner/contractor above them
+- Pitch angle: "stop doing unpaid design work — let the system give you the first draft before the client commits"
+
 Lower priority:
 
 - pure conceptual studios with low execution involvement
 - large firms with mature PM/BIM ops
 - designers posting mostly aesthetic/craft philosophy with no operations signal
-- students, employees, junior architects
+- students, employees, junior architects with no influence
 
 ## India-Specific Lead Signals
 

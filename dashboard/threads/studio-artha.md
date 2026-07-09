@@ -3,14 +3,14 @@ name: The Studio Artha
 firm: The Studio Artha
 slug: studio-artha
 linkedin:
-status: interested
+status: dead
 variant: soft-touch
 icp_fit: strong
 role: owner/principal
 geo: andhra-pradesh
-last_touch: 2026-06-07
-next_action: REVIVE — follow up to lock a call time (he agreed in principle, then went silent; our follow-up never went out)
-next_action_due: 2026-06-13
+last_touch: 2026-06-15
+next_action: PARKED — went cold after 2 touches, never replied. Off-ramp to dead 2026-06-15. Re-open only if he reaches out.
+next_action_due: 
 clickup: https://app.clickup.com/t/86d38taf1
 ---
 

@@ -13,11 +13,10 @@ The board below is **auto-generated** from those files — never edit it by hand
 ## The Board
 
 <!-- BOARD:START -->
-**12 leads** — 🌶️ 1 interested  ·  💬 1 replied  ·  🤝 1 connected  ·  📨 9 connect-sent
+**18 leads** — 💬 1 replied  ·  🤝 1 connected  ·  📨 9 connect-sent  ·  🆕 6 new  ·  ⚰️ 1 dead
 
 | | Status | Lead | Firm | ICP | Geo | Next action | Due |
 |---|---|---|---|---|---|---|---|
-| 🌶️ | interested | [The Studio Artha](threads/studio-artha.md) | The Studio Artha | 🟢 | andhra-pradesh | REVIVE — follow up to lock a call time (he agreed in principle, then went silent; our follow-up never went out) | 2026-06-13 |
 | 💬 | replied | [Avinash Doddathippanna](threads/avinash-doddathippanna.md) | — | 🟡 | uk | Chase the promised referral (interiors/manufacturing) — follow-up overdue | 2026-06-13 |
 | 🤝 | connected | [Nine Bricks Studio](threads/nine-bricks-studio.md) | Nine Bricks Studio | 🟢 | bengaluru | Follow-up #1 — this is the active pilot / proof firm | 2026-06-13 |
 | 📨 | connect-sent | [Prashanthi Narapasetty](threads/prashanthi-narapasetty.md) | Design Dialogue | 🟢 | hyderabad | Await accept; send Step 3 DM once connected. Bump in ~5 days. | 2026-06-18 |
@@ -29,6 +28,13 @@ The board below is **auto-generated** from those files — never edit it by hand
 | 📨 | connect-sent | [Raveena Avanthi](threads/raveena-avanthi.md) | KalaaZodh Architecture | 🟡 | hyderabad | Await response; Step 3 DM after. Bump in ~5 days. | 2026-06-18 |
 | 📨 | connect-sent | [Sravani Andhavarapu](threads/sravani-andhavarapu.md) | Hypercube Studio | 🟡 | hyderabad | Await accept; send Step 3 DM once connected. Bump in ~5 days. | 2026-06-18 |
 | 📨 | connect-sent | [Jyothi Kuchibhotla](threads/jyothi-kuchibhotla.md) | Skydes Studio | 🔴 | hyderabad | Await accept; send Step 3 DM once connected. Bump in ~5 days. | 2026-06-18 |
+| 🆕 | new | [Akshita Yaduka & Vedika Agarwal](threads/akshita-yaduka.md) | The Insite Studio | 🟢 | bengaluru | Step 1 — comment on IG post (@theinsitestudio.interiors). Step 2 — IG DM (LinkedIn unverified — do not connect yet). | 2026-06-15 |
+| 🆕 | new | [Ambica Krishnaveni](threads/ambica-krishnaveni.md) | Studio Wight | 🟢 | bengaluru | Step 1 — comment on LinkedIn Terra Bloom post (or latest). Step 2 — LinkedIn connect. (IG unverified — skip) | 2026-06-15 |
+| 🆕 | new | [Meghana Nimmagadda](threads/meghana-nimmagadda.md) | Designtales | 🟢 | hyderabad | Step 1 — comment on IG post (@telldesigntales). Step 2 — LinkedIn connect. | 2026-06-15 |
+| 🆕 | new | [Neeta Kumar](threads/neeta-kumar.md) | Inhabit Design Studio | 🟢 | hyderabad | Step 1 — comment on LinkedIn post. Step 2 — LinkedIn connect. (IG unverified — skip until confirmed) | 2026-06-15 |
+| 🆕 | new | [Sailesh Sreeperumbuduru](threads/sailesh-sreeperumbuduru.md) | Studiorigin | 🟢 | hyderabad | "Step 1 — comment on IG post (@studiorigin.official). Step 2 — find personal LinkedIn FIRST (company page only found). ⚠️ Do not connect until personal profile confirmed." | 2026-06-15 |
+| 🆕 | new | [Spandana Puppala](threads/spandana-puppala.md) | SP Design Studio | 🟢 | hyderabad | Step 1 — comment on IG post (@spdesigns_official). Step 2 — LinkedIn connect. | 2026-06-15 |
+| ⚰️ | dead | [The Studio Artha](threads/studio-artha.md) | The Studio Artha | 🟢 | andhra-pradesh | PARKED — went cold after 2 touches, never replied. Off-ramp to dead 2026-06-15. Re-open only if he reaches out. | — |
 <!-- BOARD:END -->
 
 Legend — Status: ✅ converted · 🔥 call-booked · 🌶️ interested · 💬 replied · 🤝 connected · 📨 connect-sent · 👀 engaging · 🆕 new · ⏳ not-now · ⚰️ dead.  ICP: 🟢 strong · 🟡 medium · 🔴 weak.

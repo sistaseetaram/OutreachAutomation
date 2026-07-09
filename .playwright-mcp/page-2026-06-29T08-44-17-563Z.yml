@@ -1,0 +1,259 @@
+- generic [ref=e1]:
+  - link [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - text: Skip to main content
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /?trk=public_post_nav-header-logo
+        - generic [ref=e6]: LinkedIn
+        - img [ref=e8]
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link [ref=e21] [cursor=pointer]:
+            - /url: https://www.linkedin.com/top-content?trk=public_post_guest_nav_menu_topContent
+            - img [ref=e23]
+            - generic [ref=e25]: Top Content
+        - listitem [ref=e26]:
+          - link [ref=e27] [cursor=pointer]:
+            - /url: https://www.linkedin.com/pub/dir/+/+?trk=public_post_guest_nav_menu_people
+            - img [ref=e29]
+            - generic [ref=e31]: People
+        - listitem [ref=e32]:
+          - link [ref=e33] [cursor=pointer]:
+            - /url: https://www.linkedin.com/learning/search?trk=public_post_guest_nav_menu_learning
+            - img [ref=e35]
+            - generic [ref=e40]: Learning
+        - listitem [ref=e41]:
+          - link [ref=e42] [cursor=pointer]:
+            - /url: https://www.linkedin.com/jobs/search?trk=public_post_guest_nav_menu_jobs
+            - img [ref=e44]
+            - generic [ref=e46]: Jobs
+        - listitem [ref=e47]:
+          - link [ref=e48] [cursor=pointer]:
+            - /url: https://www.linkedin.com/games?trk=public_post_guest_nav_menu_games
+            - img [ref=e50]
+            - generic [ref=e52]: Games
+      - generic [ref=e53]:
+        - link [ref=e54] [cursor=pointer]:
+          - /url: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsista-seetaram_interiordesign-architecture-automation-activity-7468674410837667840-Yvfe&fromSignIn=true&trk=public_post_nav-header-signin
+          - text: Sign in
+        - link [ref=e55] [cursor=pointer]:
+          - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsista-seetaram_interiordesign-architecture-automation-activity-7468674410837667840-Yvfe&trk=public_post_nav-header-join
+          - text: Join now
+  - main [ref=e56]:
+    - generic [ref=e59]:
+      - heading [level=1] [ref=e60]: Sista Seetaram’s Post
+      - article [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e64]:
+            - link [ref=e65] [cursor=pointer]:
+              - /url: https://in.linkedin.com/in/sista-seetaram?trk=public_post_feed-actor-image
+              - img [ref=e66]
+            - generic [ref=e67]:
+              - link [ref=e69] [cursor=pointer]:
+                - /url: https://in.linkedin.com/in/sista-seetaram?trk=public_post_feed-actor-name
+                - text: Sista Seetaram
+              - time [ref=e71]: 3w
+          - button [ref=e74] [cursor=pointer]:
+            - img [ref=e76]
+        - paragraph [ref=e79]:
+          - text: "Here is the brief for a real 3BHK. A list of forwarded WhatsApp messages: - \"Loft in utility.\" - \"Pooja room as per vastu.\" - \"Study in the children's bedroom.\" - \"Vanity near the wash basin.\" - \"Shoe rack.\" No form. No structured doc. Half the details were never written down. The rest is left to the designer to imagine. I ran it through the system I'm building. It fills the gaps the way a good designer would—handling vastu (traditional spatial geometry based on solar alignment and wind patterns), circulation, standard layouts—and turns the wants into structured schedules in minutes. Here are the real specifics of this run: - 3BHK · East-facing · 2100 sq ft · ₹15L interior budget. - Material & Lighting Schedules published directly to Google Sheets. - A BOQ Draft with real quantities. - FF&E sourcing sheet and auto-written elevation render prompts. Honest line: The BOQ is left blank in some fields on purpose. A physical site measure is always required before ordering. And we didn't generate the final render today—the AI kept sliding the furniture off the plan (we'll show how we're working through it tomorrow). It is a first draft, not a final. They revise from there. Not replacing anyone. Just getting to the first draft in an afternoon, not a fortnight. Building in the open. Run a design or architecture practice? Message me—I want to test it on real work."
+          - link [ref=e80] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Finteriordesign&trk=public_post-text
+            - text: "#interiordesign"
+          - link [ref=e81] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Farchitecture&trk=public_post-text
+            - text: "#architecture"
+          - link [ref=e82] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fautomation&trk=public_post-text
+            - text: "#automation"
+          - link [ref=e83] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fbuildinpublic&trk=public_post-text
+            - text: "#buildinpublic"
+        - list [ref=e84]:
+          - listitem [ref=e85]:
+            - img [ref=e86]
+          - listitem [ref=e87]:
+            - img [ref=e88]
+          - listitem [ref=e89]:
+            - img [ref=e90]
+          - listitem [ref=e91]:
+            - img [ref=e92]
+          - listitem [ref=e93]:
+            - img [ref=e94]
+            - generic [ref=e95]: "+2"
+        - generic [ref=e96]:
+          - link [ref=e97] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsista-seetaram_interiordesign-architecture-automation-activity-7468674410837667840-Yvfe&trk=public_post_social-actions-reactions
+            - generic [ref=e98]: "7"
+          - link [ref=e99] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsista-seetaram_interiordesign-architecture-automation-activity-7468674410837667840-Yvfe&trk=public_post_social-actions-comments
+            - text: · 1 Comment
+        - generic [ref=e100]:
+          - link [ref=e101] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsista-seetaram_interiordesign-architecture-automation-activity-7468674410837667840-Yvfe&trk=public_post_like-cta
+            - generic [ref=e103]: Like
+          - link [ref=e104] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsista-seetaram_interiordesign-architecture-automation-activity-7468674410837667840-Yvfe&trk=public_post_comment-cta
+            - generic [ref=e106]: Comment
+          - button [ref=e108] [cursor=pointer]:
+            - generic [ref=e109]: Share
+        - generic [ref=e110]:
+          - link [ref=e112] [cursor=pointer]:
+            - /url: https://in.linkedin.com/in/bethala-lohith-b57003b8?trk=public_post_comment_actor-image
+            - img [ref=e113]
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - link [ref=e117] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/in/bethala-lohith-b57003b8?trk=public_post_comment_actor-name
+                  - text: Bethala Lohith
+                - generic [ref=e118]: 1h
+                - button [ref=e121] [cursor=pointer]
+              - paragraph [ref=e123]: I have one genuine question. How do you provide a quotation when you don't even know the actual problem yet? Isn't it like going to a doctor or a lawyer, giving them only half the information, and expecting a full recovery or the perfect legal solution? That doesn't happen because the first step is understanding the problem. The same applies to design. Clients rarely know exactly what they want. The brief evolves through discussions, site visits, understanding their lifestyle, budget, aspirations, and the mood or experience they're expecting from the space. You mention that the system "fills the gaps like a good designer." But isn't asking the right questions and discovering those gaps what actually makes someone a good designer? Also, I'm trying to understand the positioning. Are you designing spaces or generating documentation and quotations for wardrobes, kitchens, and storage solutions? Because designing a space goes way beyond wardrobes and kitchens. Until the design intent, concept, materials, and overall direction are established, I don't understand how a meaningful BOQ or quotation can be generated.
+            - generic [ref=e124]:
+              - link [ref=e125] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsista-seetaram_interiordesign-architecture-automation-activity-7468674410837667840-Yvfe&trk=public_post_comment_like
+                - generic [ref=e127]: Like
+              - generic [ref=e128]: ·
+              - link [ref=e129] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsista-seetaram_interiordesign-architecture-automation-activity-7468674410837667840-Yvfe&trk=public_post_comment_reply
+                - generic [ref=e131]: Reply
+        - paragraph [ref=e132]:
+          - text: To view or add a comment,
+          - link [ref=e133] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsista-seetaram_interiordesign-architecture-automation-activity-7468674410837667840-Yvfe&trk=public_post_feed-cta-banner-cta
+            - text: sign in
+    - generic [ref=e134]:
+      - generic [ref=e136]:
+        - figure [ref=e137]
+        - img [ref=e140]
+        - paragraph [ref=e141]: 233 followers
+        - list [ref=e143]:
+          - listitem [ref=e144]:
+            - link [ref=e145] [cursor=pointer]:
+              - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fin%2Fsista-seetaram%2Frecent-activity%2F&trk=public_post_follow-posts
+              - text: 13 Posts
+        - generic [ref=e146]:
+          - link [ref=e147] [cursor=pointer]:
+            - /url: https://in.linkedin.com/in/sista-seetaram?trk=public_post_follow-view-profile
+            - text: View Profile
+          - link [ref=e148] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2Fupdate%2Furn%3Ali%3Aactivity%3A7468674410837667840&trk=public_post_follow
+            - img [ref=e150]
+            - text: Connect
+      - generic [ref=e152]:
+        - heading [level=2] [ref=e153]: Explore content categories
+        - generic [ref=e155]:
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link [ref=e158] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/career/
+                - text: Career
+            - listitem [ref=e159]:
+              - link [ref=e160] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/productivity/
+                - text: Productivity
+            - listitem [ref=e161]:
+              - link [ref=e162] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/finance/
+                - text: Finance
+            - listitem [ref=e163]:
+              - link [ref=e164] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/soft-skills-emotional-intelligence/
+                - text: Soft Skills & Emotional Intelligence
+            - listitem [ref=e165]:
+              - link [ref=e166] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/project-management/
+                - text: Project Management
+            - listitem [ref=e167]:
+              - link [ref=e168] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/education/
+                - text: Education
+          - button [ref=e169] [cursor=pointer]:
+            - text: Show more
+            - img [ref=e171]
+  - contentinfo [ref=e173]:
+    - list [ref=e174]:
+      - generic [ref=e175]: LinkedIn
+      - generic [ref=e177]: © 2026
+      - listitem [ref=e178]:
+        - link [ref=e179] [cursor=pointer]:
+          - /url: https://about.linkedin.com?trk=d_public_post_footer-about
+          - text: About
+      - listitem [ref=e180]:
+        - link [ref=e181] [cursor=pointer]:
+          - /url: https://www.linkedin.com/accessibility?trk=d_public_post_footer-accessibility
+          - text: Accessibility
+      - listitem [ref=e182]:
+        - link [ref=e183] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/user-agreement?trk=d_public_post_footer-user-agreement
+          - text: User Agreement
+      - listitem [ref=e184]:
+        - link [ref=e185] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/privacy-policy?trk=d_public_post_footer-privacy-policy
+          - text: Privacy Policy
+      - listitem [ref=e186]:
+        - link [ref=e187] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/cookie-policy?trk=d_public_post_footer-cookie-policy
+          - text: Cookie Policy
+      - listitem [ref=e188]:
+        - link [ref=e189] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/copyright-policy?trk=d_public_post_footer-copyright-policy
+          - text: Copyright Policy
+      - listitem [ref=e190]:
+        - link [ref=e191] [cursor=pointer]:
+          - /url: https://brand.linkedin.com/policies?trk=d_public_post_footer-brand-policy
+          - text: Brand Policy
+      - listitem [ref=e192]:
+        - link [ref=e193] [cursor=pointer]:
+          - /url: https://www.linkedin.com/psettings/guest-controls?trk=d_public_post_footer-guest-controls
+          - text: Guest Controls
+      - listitem [ref=e194]:
+        - link [ref=e195] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/professional-community-policies?trk=d_public_post_footer-community-guide
+          - text: Community Guidelines
+      - listitem [ref=e196]:
+        - button [ref=e198]: Language
+  - dialog "Sign in to view more content" [active] [ref=e201]:
+    - button "Dismiss" [ref=e202] [cursor=pointer]:
+      - img [ref=e204]
+    - generic [ref=e207]:
+      - generic [ref=e208]:
+        - heading "Sign in to view more content" [level=2] [ref=e209]
+        - paragraph [ref=e211]: Create your free account or sign in to continue your search
+      - generic [ref=e212]:
+        - button "Continue with google" [ref=e215]:
+          - generic [ref=e216]:
+            - button "Continue with Google" [ref=e218] [cursor=pointer]:
+              - generic [ref=e220]:
+                - img [ref=e223]
+                - generic [ref=e230]: Continue with Google
+            - iframe
+        - button "Sign in with Email" [ref=e231] [cursor=pointer]:
+          - img [ref=e233]
+          - generic [ref=e235]: Sign in with Email
+        - paragraph [ref=e237]: or
+        - button "Continue with google" [ref=e239]:
+          - generic [ref=e240]:
+            - button "Continue with Google" [ref=e242] [cursor=pointer]:
+              - generic [ref=e244]:
+                - img [ref=e246]
+                - generic [ref=e253]: Continue with Google
+            - iframe
+        - paragraph [ref=e254]:
+          - text: New to LinkedIn?
+          - link "Join now" [ref=e255] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsista-seetaram_interiordesign-architecture-automation-activity-7468674410837667840-Yvfe&trk=public_post_contextual-sign-in-modal_join-link
+        - paragraph [ref=e256]:
+          - text: By clicking Continue to join or sign in, you agree to LinkedIn’s
+          - link "User Agreement" [ref=e257] [cursor=pointer]:
+            - /url: /legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement
+          - text: ","
+          - link "Privacy Policy" [ref=e258] [cursor=pointer]:
+            - /url: /legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy
+          - text: ", and"
+          - link "Cookie Policy" [ref=e259] [cursor=pointer]:
+            - /url: /legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy
+          - text: .
